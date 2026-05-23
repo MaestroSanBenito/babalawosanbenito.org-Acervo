@@ -1,0 +1,38 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    {% include analytics.html %}
+    <style>
+        /* Estética Seria, Realista y Profesional de la Logia */
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: #e0e0e0; background-color: #121212; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h1, h2, h3 { color: #ffffff; border-bottom: 1px solid #222; padding-bottom: 5px; }
+        a { color: #4a90e2; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        pre, code { background-color: #1a1a1a; padding: 10px; border: 1px solid #2a2a2a; border-radius: 4px; display: block; overflow-x: auto; color: #a9b7c6; }
+        blockquote { border-left: 4px solid #4a90e2; padding-left: 15px; color: #aaaaaa; font-style: italic; margin: 20px 0; }
+        hr { border: 0; border-top: 1px solid #222; margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav style="text-align: center; margin-bottom: 20px;">
+            <a href="/">Inicio</a> | 
+            <a href="/quien-soy/">Quién Soy</a> | 
+            <a href="/velacion/">Velación</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        {{ content }}
+    </main>
+    <hr>
+    <footer>
+        <p style="text-align: center; font-size: 12px; color: #666;">&copy; 2026 Logia Nigromante - Maestro San Benito. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
