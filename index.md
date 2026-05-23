@@ -30,6 +30,7 @@ permalink: /
         "url": "https://www.babalawosanbenito.com"
       },
       "hasPart": [
+        "https://www.babalawosanbenito.org/quien-soy/",
         "https://www.babalawosanbenito.org/velacion/",
         "https://www.babalawosanbenito.org/cristal/",
         "https://www.babalawosanbenito.org/actual/",
