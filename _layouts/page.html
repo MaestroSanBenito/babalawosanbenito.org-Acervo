@@ -7,11 +7,11 @@
     <meta name="description" content="{{ page.description }}">
     {% include analytics.html %}
     <style>
-        /* Estética Seria, Realista y Profesional de la Logia - Contraste Optimizado */
+        /* Estética Seria, Realista y Profesional de la Logia - Contraste Absoluto */
         body { 
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
             line-height: 1.6; 
-            color: #f0f0f0; /* Gris muy claro para máxima legibilidad */
+            color: #ffffff; /* Blanco puro para eliminar cualquier error en cuerpo */
             background-color: #121212; 
             padding: 20px; 
             max-width: 800px; 
@@ -19,13 +19,13 @@
         }
         h1, h2, h3 { 
             color: #ffffff; 
-            border-bottom: 1px solid #2a2a2a; 
+            border-bottom: 1px solid #333333; 
             padding-bottom: 5px; 
         }
-        /* Enlaces con contraste aprobado por WCAG (Azul Eléctrico Brillante) */
+        /* Enlaces con contraste premium aprobado por WCAG AAA */
         a { 
-            color: #6ba4e8; 
-            text-decoration: underline; /* El subrayado por defecto elimina el error de 'depender solo del color' */
+            color: #8ab4f8; /* Azul claro de alta visibilidad para pantallas oscuras */
+            text-decoration: underline; 
         }
         a:hover { 
             color: #ffffff; 
@@ -34,29 +34,35 @@
         pre, code { 
             background-color: #1a1a1a; 
             padding: 10px; 
-            border: 1px solid #2a2a2a; 
+            border: 1px solid #333333; 
             border-radius: 4px; 
             display: block; 
             overflow-x: auto; 
-            color: #e0e0e0; 
+            color: #ffffff; 
         }
         blockquote { 
-            border-left: 4px solid #6ba4e8; 
+            border-left: 4px solid #8ab4f8; 
             padding-left: 15px; 
-            color: #d0d0d0; /* Aclarado para pasar la auditoría de contraste */
+            color: #e8eaed; 
             font-style: italic; 
             margin: 20px 0; 
         }
         hr { 
             border: 0; 
-            border-top: 1px solid #2a2a2a; 
+            border-top: 1px solid #333333; 
             margin: 30px 0; 
+        }
+        /* Menú superior con alto contraste */
+        header nav {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ffffff;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav style="text-align: center; margin-bottom: 20px;">
+        <nav>
             <a href="/">Inicio</a> | 
             <a href="/quien-soy/">Quién Soy</a> | 
             <a href="/velacion/">Velación</a>
@@ -68,7 +74,7 @@
     </main>
     <hr>
     <footer>
-        <p style="text-align: center; font-size: 12px; color: #666;">&copy; 2026 Logia Nigromante - Maestro San Benito. Todos los derechos reservados.</p>
+        <p style="text-align: center; font-size: 13px; color: #e8eaed;">&copy; 2026 Logia Nigromante - Maestro San Benito. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
