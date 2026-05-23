@@ -1,0 +1,29 @@
+```html
+<!-- Google Analytics Global Target - Logia Nigromante -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QGPQGMLGE9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QGPQGMLGE9', { 'anonymize_ip': true });
+</script>
+
+<!-- Banner de Privacidad e Inmunidad Analítica -->
+<div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #161616; color: #ffffff; border-top: 2px solid #222222; padding: 15px 20px; box-sizing: border-box; text-align: center; font-size: 13px; font-family: sans-serif; z-index: 9999; display: none;">
+  <span>Este portal utiliza herramientas analíticas bioenergéticas avanzadas para optimizar la navegación de nuestros consultantes globales. Al continuar explorando el acervo, usted acepta nuestras políticas de privacidad y protección de rastro digital.</span>
+  <button onclick="acceptCookies()" style="background-color: #ffffff; color: #121212; border: none; padding: 6px 15px; margin-left: 15px; border-radius: 3px; cursor: pointer; font-weight: bold; font-size: 12px; transition: background 0.2s;">Aceptar y Proceder</button>
+</div>
+
+<script>
+  function checkCookieConsent() {
+    if (!localStorage.getItem('cookie_consent_logia')) {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }
+  }
+  function acceptCookies() {
+    localStorage.setItem('cookie_consent_logia', 'accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+  window.onload = checkCookieConsent;
+</script>
