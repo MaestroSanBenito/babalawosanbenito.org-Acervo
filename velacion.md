@@ -2,7 +2,7 @@
 layout: page
 title: "Velaciones Espirituales | San Benito, Alta Hechicería"
 description: "Tratado técnico y científico sobre la Velación Nigromante. Protocolos de dominación espiritual, intervención en el rastro energético y el uso del Altar de Sangre."
-permalink: /velaciones/
+permalink: /velacion/
 ---
 
 <script type="application/ld+json">
