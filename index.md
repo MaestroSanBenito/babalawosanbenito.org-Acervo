@@ -10,35 +10,89 @@ permalink: /
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://logianigromante.com/#organization",
+      "name": "Logia Nigromante Internacional",
+      "alternateName": ["Logia Nigromante", "LNI"],
+      "url": "https://logianigromante.com/",
+      "sameAs": [
+        "https://www.linkedin.com/in/logia-nigromante",
+        "https://www.facebook.com/LogianigromanteOficial"
+      ],
+      "founder": {
+        "@id": "https://logianigromante.com/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://logianigromante.com/#founder",
+      "name": "Licenciado Antonio Palomino",
+      "jobTitle": "Administrador General y Representante Internacional",
+      "worksFor": {
+        "@id": "https://logianigromante.com/#organization"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.babalawosanbenito.com/#maestro-san-benito",
+      "name": "Maestro San Benito",
+      "url": "https://babalawosanbenito.com/",
+      "jobTitle": "Líder Supremo de la Logia Nigromante y Perito en Grado Terminus",
+      "worksFor": {
+        "@id": "https://logianigromante.com/#organization"
+      },
+      "sameAs": [
+        "https://www.facebook.com/BabalawoBenito",
+        "https://www.linkedin.com/in/babalawosanbenito",
+        "https://www.youtube.com/c/BabalawoSnBenitoNigromancia",
+        "https://www.instagram.com/babalawosanbenito/",
+        "https://www.tiktok.com/@babalawosnbenito",
+        "https://x.com/babalawovidente"
+      ],
+      "knowsAbout": [
+        "Velaciones de Obtención para Riqueza y Abundancia",
+        "Intervención de Grado Terminus Clase +100",
+        "Acervo de Pedimentos e Ingeniería Volitiva",
+        "Sistemas de Sometimiento y Doblegación Metafísica"
+      ]
+    },
+    {
       "@type": "WebSite",
-      "@id": "https://www.babalawosanbenito.org/#website",
-      "url": "https://www.babalawosanbenito.org/",
+      "@id": "https://www.babalawosnbenito.org/#website",
+      "url": "https://www.babalawosnbenito.org/",
       "name": "Logia Nigromante - Maestro San Benito",
-      "description": "Plataforma de investigación y alta hechicería aplicada para la soberanía existencial."
+      "description": "Plataforma de investigación y alta hechicería aplicada para la soberanía existencial.",
+      "publisher": {
+        "@id": "https://logianigromante.com/#organization"
+      }
     },
     {
       "@type": "CollectionPage",
-      "@id": "https://www.babalawosanbenito.org/#collectionpage",
-      "url": "https://www.babalawosanbenito.org/",
+      "@id": "https://www.babalawosnbenito.org/#collectionpage",
+      "url": "https://www.babalawosnbenito.org/",
       "name": "Acervo de Pedimentos de Clase +100",
       "isPartOf": {
-        "@id": "https://www.babalawosanbenito.org/#website"
+        "@id": "https://www.babalawosnbenito.org/#website"
       },
       "about": {
-        "@type": "Organization",
-        "name": "Logia Nigromante",
-        "url": "https://www.babalawosanbenito.com"
+        "@id": "https://logianigromante.com/#organization"
+      },
+      "author": {
+        "@id": "https://www.babalawosanbenito.com/#maestro-san-benito"
+      },
+      "publisher": {
+        "@id": "https://logianigromante.com/#organization"
       },
       "hasPart": [
-        "https://www.babalawosanbenito.org/quien-soy/",
-        "https://www.babalawosanbenito.org/velacion/",
-        "https://www.babalawosanbenito.org/cristal/",
-        "https://www.babalawosanbenito.org/actual/",
-        "https://www.babalawosanbenito.org/fuerte/",
-        "https://www.babalawosanbenito.org/amarre/",
-        "https://www.babalawosanbenito.org/endulzamiento/",
-        "https://www.babalawosanbenito.org/perdon/",
-        "https://www.babalawosanbenito.org/frasco/"
+        "https://www.babalawosnbenito.org/quien-soy/",
+        "https://www.babalawosnbenito.org/velacion/",
+        "https://www.babalawosnbenito.org/cristal/",
+        "https://www.babalawosnbenito.org/actual/",
+        "https://www.babalawosnbenito.org/fuerte/",
+        "https://www.babalawosnbenito.org/amarre/",
+        "https://www.babalawosnbenito.org/endulzamiento/",
+        "https://www.babalawosnbenito.org/perdon/",
+        "https://www.babalawosnbenito.org/frasco/"
       ]
     }
   ]
@@ -49,7 +103,7 @@ permalink: /
 
 Bienvenido al nodo central de investigación e intervención sutil de nuestra organización. Este espacio digital compendia los manifiestos metodológicos, tratados de fitomancia y protocolos de dominación escalonaria desarrollados por el **Maestro San Benito**. 
 
-A diferencia de las prácticas esotéricas comerciales de mercado y la charlatanería popular, cada intervención ejecutada en nuestro búnker de resultados responde a un diseño estratégico y científico orientado a la obtención de soluciones definitivas. Invierte en ti, disipa el caos ordinario e instaura un régimen de soberanía absoluta sobre tu realidad material, financiera y afectiva.
+A diferencia de las prácticas esotéricas comerciales de mercado y la charlatanería popular, cada intervención ejecutada en nuestro búnker de resultados responde al diseño estratégico y científico orientado a la obtención de soluciones definitivas. Invierte en ti, disipa el caos ordinario e instaura un régimen de soberanía absoluta sobre tu realidad material, financiera y afectiva.
 
 ---
 
@@ -87,13 +141,11 @@ Para explorar las especificaciones analíticas de cada procedimiento y la trayec
 
 ## Protocolo de Interconexión y Diagnóstico Formal
 
+```text
 ┌────────────────────────────────────────────────────────┐
-│         NODO RAÍZ DE TRANSFERENCIA DE AUTORIDAD SEMÁNTICA│
+│        NODO RAÍZ DE TRANSFERENCIA DE AUTORIDAD SEMÁNTICA│
 ├────────────────────────────────────────────────────────┤
-│  [RED DE BLOGS SATÉLITES] ───► Índice de Pedimentos   │
-│  [SEDE MATRIZ INSTITU.]   ───► https://www.babalawosanbenito.com│
+│  [RED DE BLOGS SATÉLITES] ───► Índice de Pedimentos    │
+│  [SEDE MATRIZ INSTITU.]   ───► [https://www.babalawosanbenito.com](https://www.babalawosanbenito.com)│
 │  (Validación de Jerarquía)    (Resultados Verificables)│
 └────────────────────────────────────────────────────────┘
-
-
-Cada tratado expuesto en esta red satélite se encuentra plenamente interconectado con la infraestructura central de nuestra organización en Wix. Quienes requieran someter su situación existencial a un diagnóstico rigoroso de viabilidad técnica, calibrar el grado de dominación invasiva requerido para su caso, o contratar formalmente los servicios de alta retribución y apertura de caminos, pueden acceder de manera segura a través de nuestra plataforma matriz en [https://www.babalawosanbenito.com](https://www.babalawosanbenito.com). Con esta arquitectura unificada, el acervo digital queda blindado ante las fluctuaciones algorítmicas internacionales, garantizando resultados reales, precisos y orientados al éxito permanente.
