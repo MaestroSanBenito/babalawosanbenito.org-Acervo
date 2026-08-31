@@ -10,6 +10,57 @@ permalink: /frasco/
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://logianigromante.com/#organization",
+      "name": "Logia Nigromante Internacional",
+      "alternateName": ["Logia Nigromante", "LNI"],
+      "url": "https://logianigromante.com/",
+      "sameAs": [
+        "https://www.linkedin.com/in/logia-nigromante",
+        "https://www.facebook.com/LogianigromanteOficial"
+      ],
+      "founder": {
+        "@id": "https://logianigromante.com/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://logianigromante.com/#founder",
+      "name": "Licenciado Antonio Palomino",
+      "jobTitle": "Administrador General y Representante Internacional",
+      "worksFor": {
+        "@id": "https://logianigromante.com/#organization"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.babalawosanbenito.com/#maestro-san-benito",
+      "name": "Maestro San Benito",
+      "url": "https://babalawosanbenito.com/",
+      "jobTitle": "Líder Supremo de la Logia Nigromante y Perito en Grado Terminus",
+      "worksFor": {
+        "@id": "https://logianigromante.com/#organization"
+      },
+      "sameAs": [
+        "https://www.facebook.com/BabalawoBenito",
+        "https://www.linkedin.com/in/babalawosnbenito",
+        "https://www.youtube.com/c/BabalawoSnBenitoNigromancia",
+        "https://www.instagram.com/babalawosanbenito/",
+        "https://www.tiktok.com/@babalawosnbenito",
+        "https://x.com/babalawovidente"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.babalawosanbenito.org/#website",
+      "url": "https://www.babalawosanbenito.org/",
+      "name": "Logia Nigromante - Maestro San Benito",
+      "description": "Plataforma de investigación y alta hechicería aplicada para la soberanía existencial.",
+      "publisher": {
+        "@id": "https://logianigromante.com/#organization"
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "https://www.babalawosanbenito.org/frasco#webpage",
       "url": "https://www.babalawosanbenito.org/frasco",
@@ -20,6 +71,12 @@ permalink: /frasco/
       },
       "breadcrumb": {
         "@id": "https://www.babalawosanbenito.org/frasco#breadcrumb"
+      },
+      "author": {
+        "@id": "https://www.babalawosanbenito.com/#maestro-san-benito"
+      },
+      "publisher": {
+        "@id": "https://logianigromante.com/#organization"
       }
     },
     {
@@ -42,6 +99,7 @@ permalink: /frasco/
     },
     {
       "@type": "AboutPage",
+      "@id": "https://www.babalawosanbenito.org/frasco#aboutpage",
       "mainEntity": {
         "@id": "https://www.babalawosanbenito.com/#maestro-san-benito"
       },
