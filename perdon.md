@@ -10,6 +10,57 @@ permalink: /perdon/
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://logianigromante.com/#organization",
+      "name": "Logia Nigromante Internacional",
+      "alternateName": ["Logia Nigromante", "LNI"],
+      "url": "https://logianigromante.com/",
+      "sameAs": [
+        "https://www.linkedin.com/in/logia-nigromante",
+        "https://www.facebook.com/LogianigromanteOficial"
+      ],
+      "founder": {
+        "@id": "https://logianigromante.com/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://logianigromante.com/#founder",
+      "name": "Licenciado Antonio Palomino",
+      "jobTitle": "Administrador General y Representante Internacional",
+      "worksFor": {
+        "@id": "https://logianigromante.com/#organization"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.babalawosanbenito.com/#maestro-san-benito",
+      "name": "Maestro San Benito",
+      "url": "https://babalawosanbenito.com/",
+      "jobTitle": "Líder Supremo de la Logia Nigromante y Perito en Grado Terminus",
+      "worksFor": {
+        "@id": "https://logianigromante.com/#organization"
+      },
+      "sameAs": [
+        "https://www.facebook.com/BabalawoBenito",
+        "https://www.linkedin.com/in/babalawosnbenito",
+        "https://www.youtube.com/c/BabalawoSnBenitoNigromancia",
+        "https://www.instagram.com/babalawosanbenito/",
+        "https://www.tiktok.com/@babalawosnbenito",
+        "https://x.com/babalawovidente"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.babalawosanbenito.org/#website",
+      "url": "https://www.babalawosanbenito.org/",
+      "name": "Logia Nigromante - Maestro San Benito",
+      "description": "Plataforma de investigación y alta hechicería aplicada para la soberanía existencial.",
+      "publisher": {
+        "@id": "https://logianigromante.com/#organization"
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "https://www.babalawosanbenito.org/perdon#webpage",
       "url": "https://www.babalawosanbenito.org/perdon",
@@ -20,6 +71,12 @@ permalink: /perdon/
       },
       "breadcrumb": {
         "@id": "https://www.babalawosanbenito.org/perdon#breadcrumb"
+      },
+      "author": {
+        "@id": "https://www.babalawosanbenito.com/#maestro-san-benito"
+      },
+      "publisher": {
+        "@id": "https://logianigromante.com/#organization"
       }
     },
     {
@@ -42,6 +99,7 @@ permalink: /perdon/
     },
     {
       "@type": "AboutPage",
+      "@id": "https://www.babalawosanbenito.org/perdon#aboutpage",
       "mainEntity": {
         "@id": "https://www.babalawosanbenito.com/#maestro-san-benito"
       },
@@ -52,7 +110,6 @@ permalink: /perdon/
   ]
 }
 </script>
-
 # Hechicería para Superar Infidelidades y Conflictos: Reestructuración Técnica de la Memoria Emocional
 
 ## 1. Epistemología de la Reconciliación Real frente a la Caducidad del Retorno Tradicional
